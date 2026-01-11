@@ -1,0 +1,53 @@
+# ========================================
+# Ignore everything by default
+# ========================================
+*
+!*/
+
+# ========================================
+# Track Git-related files in root
+# ========================================
+!/.git*
+!/.gitignore
+
+# ========================================
+# Node / scripts / assets we want to track
+# ========================================
+# GitHub Actions workflows
+!.github/
+!.github/workflows/*
+
+# Scripts folder
+!scripts/**
+
+# Assets folder
+!assets/wardrobe_F/**
+
+# ========================================
+# OS / editor files to ignore
+# ========================================
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Mac OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# Vim temporary files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Visual Studio
+.vs/
